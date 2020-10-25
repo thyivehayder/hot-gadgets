@@ -4,8 +4,21 @@
     padding: 5px 10px;
     border-radius: 5px;
 }
+
+.carousel-indicators li{
+    background-color: yellow;
+}
+.try{
+    
+    background-color: black !important;
+}
 .row{
-    background-image: url('images/bg-1.png');
+    height: 550px;
+    background-image: url(images/bg-1.png);
     background-position: center;
     background-repeat: no-repeat;
+}
+.card-footer{
+    border-top: none;
+    background-color: white;
 }
