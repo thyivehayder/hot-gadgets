@@ -3,6 +3,7 @@
     color: white;
     padding: 5px 10px;
     border-radius: 5px;
+    cursor: pointer;
 }
 
 .carousel-indicators li{
@@ -12,7 +13,7 @@
     
     background-color: black !important;
 }
-.row{
+.bg{
     height: 550px;
     background-image: url(images/bg-1.png);
     background-position: center;
@@ -21,4 +22,23 @@
 .card-footer{
     border-top: none;
     background-color: white;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px grey;
+    border-radius: 10px;
+}
+section{
+    margin-bottom: 60px;
+}
+div a{
+    color: #FFC320;
+}
+.cat-brdr{
+    border-bottom: 5px solid yellow;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+.cat-item{
+    padding: 20px 20px;
 }
